@@ -3,6 +3,17 @@
 #include <string>
 #include <sstream>
 #include <iomanip>
+
+enum class partType
+{
+    AM,
+    PM
+};
+enum timeType
+{
+    TWELVE,
+    TWENTYFOUR
+};
 class clockType
 {
 public:
