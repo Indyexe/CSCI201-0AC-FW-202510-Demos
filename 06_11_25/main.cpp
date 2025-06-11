@@ -3,7 +3,7 @@
 #include "clock.h"
 
 const int NUM_ITEMS = 30;
-const clockType THE_CLOCK;
+const clockType THE_CLOCK(TWENTYFOUR);
 
 int doubleNum(int x = 7);
 void copyArray(int listFrom[], int numFrom, int listTo[], int numTo);
@@ -11,13 +11,13 @@ clockType inputClock();
 
 int main()
 {
-    clockType clockList[10];
+    // clockType clockList[10];
     int y = doubleNum();
     std::cout << y << std::endl;
-    clockType c;
+    clockType c(TWENTYFOUR);
     c.setTime(5, 41, 22);
     std::cout << c.printTime() << std::endl;
-    clockType c2;
+    clockType c2(TWENTYFOUR);
     c2 = c;
     c.incrementSeconds();
     if (c.equalTime(c2))
