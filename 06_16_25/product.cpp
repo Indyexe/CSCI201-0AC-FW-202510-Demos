@@ -1,7 +1,7 @@
 #include "product.h"
 
 int product::numProducts = 0;
-product::product(int pn, std::string desc, double p)
+product::product(int pn, std::string desc, double p) : customer("Customer Name", 18)
 {
     numProducts++;
     if (pn <= 0)

@@ -17,7 +17,7 @@ drink::drink(bool c, bool h, sizeType s, flavType f[], int numF, int pn, std::st
     setHot(h);
     setSize(s);
     setFlavors(f, numF);
-    setPrice(getPrice());
+    price = getPrice();
 }
 bool drink::isCoffee() const
 {

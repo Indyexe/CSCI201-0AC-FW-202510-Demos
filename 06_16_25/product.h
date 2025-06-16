@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include <cmath>
+#include "person.h"
 
 class product
 {
@@ -15,11 +16,12 @@ public:
     void setDescription(std::string desc);
     std::string tostring() const;
 
-private:
+protected:
     double price;
     std::string description;
     int prodNum;
     static int numProducts;
+    Person customer;
 };
 
 #endif
