@@ -2,7 +2,7 @@
 #include "product.h"
 #include "drink.h"
 
-// lecture activity: create a new derived class from product submit the h and cpp of your new class
+// lecture activity part a: create a new derived class from product submit the h and cpp of your new class
 
 int main()
 {
