@@ -13,7 +13,7 @@ public:
     int getProdNum() const;
     void setPrice(double p);
     void setDescription(std::string desc);
-    std::string tostring();
+    std::string tostring() const;
 
 private:
     double price;

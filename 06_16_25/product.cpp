@@ -37,7 +37,7 @@ void product::setDescription(std::string desc)
 {
     description = desc;
 }
-std::string product::tostring()
+std::string product::tostring() const
 {
     std::string output;
     output += "Product Number: " + std::to_string(prodNum);
